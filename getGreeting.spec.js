@@ -6,4 +6,11 @@ describe('getGreeting', () => {
     const result = getGreeting()
     expect(result).toBe('Hello you!')
   })
+
+  it('returns "Hello Jane" when called with getGreeting("Jane")', () => {
+      const result = getGreeting('Jane')
+      expect(result).toBe('Hello Jane!')
+  })
+  
+
 })
