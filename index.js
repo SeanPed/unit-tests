@@ -1,5 +1,5 @@
-console.log("hello node");
+console.log('hello node')
 
-function getGreeting (name = "you") {
-return "Hello" + name + "!";    
+function getGreeting(name = 'you') {
+  return 'Hello' + name + '!'
 }
